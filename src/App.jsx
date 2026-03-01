@@ -11,7 +11,7 @@ import { getMerkleRoot } from "./utils/merkle";
 const INITIAL_CANDIDATES = [
   { id: 1, name: "קובי חנוך", votes: 0, answers: [1, 1, 0] },
   { id: 2, name: "עומר נוף", votes: 0, answers: [0, 1, 1] },
-  { id: 3, name: "מיכה כהן", votes: 0, answers: [1, 0, 0] },
+  { id: 3, name: "מיכה ברשפ", votes: 0, answers: [1, 0, 0] },
 ];
 
 function App() {
