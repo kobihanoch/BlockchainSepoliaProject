@@ -198,7 +198,9 @@ const VotingPage = ({
               {rewardStatus || "יתעדכן לאחר הצבעה"}
             </div>
           </div>
-          <div style={{ ...STYLES.card, padding: "1.25rem" }}>
+          <div
+            style={{ ...STYLES.card, padding: "1.25rem", overflowX: "scroll" }}
+          >
             <div style={{ color: COLORS.textSec, fontSize: "0.9rem" }}>
               כתובת חוזה
             </div>

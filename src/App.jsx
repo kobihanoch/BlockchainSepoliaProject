@@ -20,8 +20,8 @@ function App() {
   const [contractConfig, setContractConfig] = useState({
     // Contract states
     network: "sepolia",
-    votingAddress: "0xA6c62Ad662AB428870848C9048dD35488f209B45",
-    tokenAddress: "0xA6c62Ad662AB428870848C9048dD35488f209B45",
+    votingAddress: "0x2536b80F48906f32726252A6E6E8Cc88a218f8e4",
+    tokenAddress: "0x2536b80F48906f32726252A6E6E8Cc88a218f8e4",
     merkleRoot: "",
     abi: JSON.stringify(CONTRACT_ABI, null, 2),
   });

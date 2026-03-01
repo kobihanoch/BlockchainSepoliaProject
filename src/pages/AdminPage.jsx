@@ -312,7 +312,7 @@ const AdminPage = ({
                   {contractConfig.abi ? "נטען" : "לא נטען"}
                 </div>
               </div>
-              <div style={{ overflow: "scroll" }}>
+              <div style={{ overflowX: "scroll" }}>
                 <div style={{ color: COLORS.textSec, fontSize: "0.9rem" }}>
                   שורש מרקל מהרשימה המאושרת ({allowlistSize} כתובות מאושרות)
                 </div>
