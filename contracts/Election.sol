@@ -24,7 +24,7 @@ contract Election is ERC20 {
     event VotingTimesSet(uint startTime, uint endTime);
     event MerkleRootSet(bytes32 root);
 
-    constructor() ERC20("ElectionToken", "BAL") {
+    constructor() ERC20("KobiToken", "BAL") {
         admin = msg.sender;
         _mint(address(this), 1000000 * 10 ** decimals());
     }
