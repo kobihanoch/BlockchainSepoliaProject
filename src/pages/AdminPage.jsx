@@ -300,7 +300,7 @@ const AdminPage = ({
                 <div style={{ color: COLORS.textSec, fontSize: "0.9rem" }}>
                   כתובת חוזה תגמול BAL (ERC20)
                 </div>
-                <div style={{ fontWeight: "600" }}>
+                <div style={{ fontWeight: "600", overflow: "hidden" }}>
                   {contractConfig.tokenAddress || "לא הוגדרה"}
                 </div>
               </div>
@@ -312,7 +312,7 @@ const AdminPage = ({
                   {contractConfig.abi ? "נטען" : "לא נטען"}
                 </div>
               </div>
-              <div>
+              <div style={{ overflow: "scroll" }}>
                 <div style={{ color: COLORS.textSec, fontSize: "0.9rem" }}>
                   שורש מרקל מהרשימה המאושרת ({allowlistSize} כתובות מאושרות)
                 </div>
