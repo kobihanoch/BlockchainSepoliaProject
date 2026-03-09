@@ -144,7 +144,7 @@ function App() {
   }, [contract]);
 
   // Set if current user is admin
-  // Admin is the first user to log in for current contract
+  // Admin is the user who deployed the contract
   useEffect(() => {
     if (!contract || !wallet) {
       setIsAdmin(false);
