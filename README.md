@@ -9,16 +9,34 @@ This project was developed as an **academic assignment** in a Blockchain course,
 Traditional voting apps usually rely on centralized backends. In this project, core voting logic is moved to a smart contract so election rules are transparent and verifiable on-chain.
 
 Key idea:
+
 - Store election state (candidates, voting window, votes) on blockchain.
 - Allow only approved voters using a Merkle-tree allowlist proof.
 - Prevent double-voting directly in the contract.
 - Reward voters with ERC-20 tokens after a valid vote.
+
+## Screenshots
+
+> Replace these placeholders with your actual screenshot file paths.
+
+### Admin Dashboard
+
+![Admin Dashboard Placeholder]("https://github.com/user-attachments/assets/a7965986-9427-4567-851d-da7f4e3b8c14")
+
+### Voting Page
+
+![Voting Page Placeholder]("https://github.com/user-attachments/assets/591e62ae-eedc-44b0-b5c4-7f9a23a0ce44")
+
+### Smart Match Modal
+
+![Smart Match Modal Placeholder]("https://github.com/user-attachments/assets/73d06553-1339-47e5-949b-f17424ee1f35")
 
 ## Why Sepolia
 
 The app uses **Sepolia** because it provides an Ethereum-like environment without real fund risk.
 
 Benefits in this project:
+
 - Real wallet interaction through MetaMask.
 - Real transaction signing and confirmation flow.
 - Safe environment for academic experimentation and testing.
@@ -37,16 +55,19 @@ Benefits in this project:
 ## Architecture Overview
 
 Frontend:
+
 - React (Vite)
 - Ethers.js for blockchain calls
 - React Router for voter/admin routes
 
 Smart Contract:
+
 - `contracts/Election.sol`
 - Inherits ERC-20 (OpenZeppelin)
 - Uses `MerkleProof` to validate voter allowlist
 
 Data Flow:
+
 1. User connects MetaMask.
 2. App verifies network is Sepolia.
 3. App reads election state from contract.
@@ -56,6 +77,7 @@ Data Flow:
 ## Smart Contract Highlights
 
 `Election.sol` includes:
+
 - `addCandidate(...)` (admin only)
 - `setVotingTimes(...)` (admin only)
 - `setMerkleRoot(...)` (admin only)
@@ -108,6 +130,7 @@ npm run preview
 This repository is part of a university-level Blockchain final project.
 
 Learning goals addressed:
+
 - Smart-contract design and constraints.
 - Frontend-to-blockchain integration.
 - Transaction lifecycle UX.
