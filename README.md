@@ -21,15 +21,15 @@ Key idea:
 
 ### Admin Dashboard
 
-![Admin Dashboard Placeholder]("https://github.com/user-attachments/assets/a7965986-9427-4567-851d-da7f4e3b8c14")
+![Admin Dashboard Placeholder](https://github.com/user-attachments/assets/a7965986-9427-4567-851d-da7f4e3b8c14)
 
 ### Voting Page
 
-![Voting Page Placeholder]("https://github.com/user-attachments/assets/591e62ae-eedc-44b0-b5c4-7f9a23a0ce44")
+![Voting Page Placeholder](https://github.com/user-attachments/assets/591e62ae-eedc-44b0-b5c4-7f9a23a0ce44)
 
 ### Smart Match Modal
 
-![Smart Match Modal Placeholder]("https://github.com/user-attachments/assets/73d06553-1339-47e5-949b-f17424ee1f35")
+![Smart Match Modal Placeholder](https://github.com/user-attachments/assets/73d06553-1339-47e5-949b-f17424ee1f35)
 
 ## Why Sepolia
 
